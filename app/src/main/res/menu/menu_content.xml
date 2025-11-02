@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ctx_share"
+        android:title="Compartir"
+        android:icon="@drawable/compartir__1_"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/ctx_delete"
+        android:title="Eliminar"
+        android:icon="@drawable/borrar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/ctx_move"
+        android:title="Mover a álbum"
+        android:icon="@drawable/carpeta"
+        app:showAsAction="never" />
+</menu>
